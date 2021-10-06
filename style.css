@@ -1,0 +1,5 @@
+:root {
+  --primary: #7b4fe9;
+  --font-size-xl: 2rem !important;
+  --boxes--mixin: "bg:@primary; bg.hover:red; sm|bg:red; md|bg:blue; xl|bg:green; w:150px; h:150px; first-letter!color:yellow; radius; mx:auto; font-size:xl";
+}

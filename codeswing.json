@@ -1,0 +1,6 @@
+{
+  "scripts": [
+    "https://unpkg.com/@asmcss/assembler/dist/assembler.min.js"
+  ],
+  "styles": []
+}
