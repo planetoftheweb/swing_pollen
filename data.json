@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Appetizers",
+    "description": "Start off with one of our delicious appetizers, sure to pique your appetite.",
+    "items": [
+      {
+        "img": "./img/chipsconsalsa",
+        "title": "Chips con Salsa",
+        "description": "Chips con Salsa An unlimited supply of our lightly salted chips with our homemade salsa made just how you like it.",
+        "price": 0.99
+      },
+      {
+        "img": "./img/chipsconguacamole",
+        "title": "Chips con Guacamole",
+        "description": "Chips con Guacamole Our delicious corn chips made fresh daily and served with our delicious guacamole topped with pico de gallo.",
+        "price": 10.99
+      },
+      {
+        "img": "./img/sopadecamarones",
+        "title": "Sopa de Camarones",
+        "description": "Sopa de Camarones A tomato based broth with large shrimp and our special sofrito vegetable marinade.",
+        "price": 30.49
+      },
+      {
+        "img": "./img/sopadegallina",
+        "title": "Sopa de Gallina",
+        "description": "Sopa de Gallina Shredded chicken with our mix of spices and tomatos, peppers and cilantro.",
+        "price": 20.99
+      }
+    ]
+  },
+  {
+    "name": "Entrees",
+    "description": "Our entrees feature grass-fed beef and locally grown vegetables...the fresh ingredients sing all the way down to your stomach.",
+    "items": [
+      {
+        "img": "./img/burrongigante",
+        "title": "Burron Gigante",
+        "description": "Burron Gigante One serious pound of beef or chicken, plus beans, rice and pico de gallo. Topped with melted white cheddar cheese.",
+        "price": 13.99
+      },
+      {
+        "img": "./img/steakdelborder",
+        "title": "Steak del Border",
+        "description": "Steak del Border Our delicious grilled steak cooked to perfection with our secret blend of spices .",
+        "price": 14.99
+      },
+      {
+        "img": "./img/flautas",
+        "title": "Flautas",
+        "description": "Flautas Your choice of flour with your choice of beef, chicken or vegan fillings.",
+        "price": 8.99
+      },
+      {
+        "img": "./img/taquitos",
+        "title": "Taquitos",
+        "description": "Taquitos Corn tortillas rolled up in our secret green salsa and rolled up into amazing bites of wonder.",
+        "price": 6.99
+      }
+    ]
+  },
+  {
+    "name": "Sides",
+    "description": "Customize you meal with with your choice from our delicious side dishes.",
+    "items": [
+      {
+        "img": "./img/ensaladamex",
+        "title": "Ensalada Mex",
+        "description": "Ensalada Mex Crisp, fresh lettuce with pico de gallo and a side of guacamole…plus a dollop of sour cream.",
+        "price": 2.49
+      },
+      {
+        "img": "./img/tortillasdearina",
+        "title": "Tortillas Solas",
+        "description": "Tortillas Solas Our tortillas are made fresh to order and are guaranteed to reach your table hot.",
+        "price": 1.29
+      },
+      {
+        "img": "./img/arrozcontortillas",
+        "title": "Arroz con Tortillas",
+        "description": "Arroz con Tortillas Double down with a serving of our yellow rice plus our made to order tortillas.",
+        "price": 1.99
+      }
+    ]
+  }
+]
