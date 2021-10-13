@@ -1,0 +1,24 @@
+<img class="logo" src="./img/logo.png" alt="Mexsantos Logo">
+
+<div class="menu"
+  x-data="{ data: [] }"
+  x-init="data = await (await fetch('./data.json')).json()">
+  <template x-for="category in data">
+    <div class="col">
+      <div class="category-name" x-text="category.name"></div>
+      <div class="category-description" x-text="category.description"></div>      
+      <div class="card-group">
+        <template x-for="item in category.items">
+          <div class="card">
+            <img class="card-img" :src="item.img+'_tn.jpg'" :alt="item.title">
+            <div class="card-content">
+              <div class="card-title" x-text="item.title"></div>
+              <div class="card-description" x-text="item.description"></div>
+              <div class="card-price" x-text="item.price"></div>
+            </div>
+          </div>
+        </template>
+      </div>
+    </div>
+  </template>
+</div>
