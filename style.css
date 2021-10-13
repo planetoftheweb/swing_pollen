@@ -1,6 +1,12 @@
 :root {
   --elevation-1: 0 5px 10px rgb(0 0 0 / 70%);
-  --color-red-700: #a32c2c;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: var(--size-full);
+  max-width: var(--size-80);
 }
 
 * {
@@ -15,17 +21,10 @@ body {
   background-image: url("img/bg.jpg");
 }
 
-.logo {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  max-width: var(--size-80);
-}
-
 .menu {
+  max-width: var(--width-xl);
   margin: 0 auto;
   padding: var(--size-5);
-  max-width: var(--width-xl);
   display: flex;
   flex-direction: column;
   gap: var(--size-5);
@@ -34,15 +33,14 @@ body {
 @media (min-width: 70em) {
   .menu {
     max-width: none;
-    margin: 0 auto;
     width: var(--width-5xl);
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     gap: var(--size-8);
   }
   .col {
     transform: rotate(-1.5deg);
-    gap: var(--size-3);
   }
   .col:nth-child(odd) {
     transform: rotate(1.5deg);
@@ -56,19 +54,8 @@ body {
 }
 
 .category-description {
-  margin-bottom: 20px;
   line-height: var(--leading-sm);
-}
-
-.card-group {
-  display: flex;
-  flex-direction: column;
-  gap: var(--size-3);
-}
-
-.card {
-  display: flex;
-  gap: var(--size-6);
+  margin-bottom: var(--size-5);
 }
 
 .card-img {
@@ -77,21 +64,6 @@ body {
   border: 4px solid white;
   border-radius: var(--radius-lg);
   box-shadow: var(--elevation-1);
-}
-
-.card-overlay {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  opacity: 0.5;
-  width: 100vw;
-  height: 100vh;
-  background-color: black;
-}
-
-.card-content {
-  display: flex;
-  flex-direction: column;
 }
 
 .card-title {
@@ -112,4 +84,15 @@ body {
 
 .card-price::before {
   content: "$";
+}
+
+.card-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-3);
+}
+
+.card {
+  display: flex;
+  gap: var(--size-6);
 }
